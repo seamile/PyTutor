@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# JS
+node_modules/
+typings/
+*.js.map
+# ignore *.png only in this directory
+/*.png
+npm-debug.log
