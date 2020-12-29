@@ -4,7 +4,7 @@ Forks from the [OnlinePythonTutor](https://github.com/pgbovine/OnlinePythonTutor
 
 Add the dockerfile, that you can deploy the pytutor in a container.
 
-You can visit here: [PyTutor](http://py.seamile.cn/)
+You can visit here: [PyTutor](http://pytutor.seamile.cn/)
 
 ## Usage
 
