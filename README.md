@@ -14,3 +14,5 @@ cd PyTutor
 docker build -t pytutor:latest .
 docker run -d -p 8003:8003 pytutor
 ```
+
+Access the instance on [http://localhost:8003/index.html](http://localhost:8003/index.html)
