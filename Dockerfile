@@ -1,10 +1,6 @@
-from ubuntu:latest
+from python:3.8
 
-run apt-get update \
-    && apt-get upgrade -y \
-    && apt-get install python3 -y \
-    && apt-get autoremove -y \
-    && apt-get autoclean
+run pip3 install bottle -i https://mirrors.aliyun.com/pypi/simple/
 
 copy ./bottle.py /usr/lib/python3/dist-packages/bottle.py
 copy ./v5-unity /root/v5-unity
